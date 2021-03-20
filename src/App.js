@@ -13,12 +13,16 @@ export default function App() {
 
 class  App extends Component {
   fileSelectedHandler = event => {
-    console.log(event.target)
+    console.log(event.target.files[0])
   }
+
+  fileUploaderHandler = () =>
+
   render() {
     return (
       <div className="App">
       <input type="file" onChange={this.fileSelectedHandler}/>
+      <button onClick={this.fileSelectedHandler}>Upload</button
     <div>
     );
   }
