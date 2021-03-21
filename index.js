@@ -43,19 +43,18 @@ class App extends Component {
          Made By Omar Mohamed 
          
         </p>
-        <Button incrementValue={2010} onClickFunction={ this.incrementCount }/>
+        
         <Button incrementValue={1} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={10} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={100} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={1000} onClickFunction={ this.incrementCount }/>
+        <Button incrementValue={2010} onClickFunction={ this.incrementCount }/>
+        <Button incrementValue={Reset} onClickFunction={ this.incrementCount2 }/>
+        <Button incrementValue={-2010} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={-1000} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={-100} onClickFunction={ this.incrementCount }/>
-       
         <Button incrementValue={-10} onClickFunction={ this.incrementCount }/>
-        
         <Button incrementValue={-1} onClickFunction={ this.incrementCount }/>
-        <Button incrementValue={-2010} onClickFunction={ this.incrementCount }/>
-         <Button incrementValue={Reset} onClickFunction={ this.incrementCount2 }/>
         <Result counter={this.state.counter}/>
       </div>
     );
