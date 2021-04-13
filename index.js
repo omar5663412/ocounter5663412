@@ -19,7 +19,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'O.C.A',
+      name: 'O.C.O',
       counter: 0
       
     };
