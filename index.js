@@ -7,6 +7,7 @@
 let Reset;
 Reset = 0
 
+
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
@@ -35,15 +36,16 @@ class App extends Component {
     }));
   }
 
+
   render() {
     return (
       <div>
         <Hello name={this.state.name} />
         <p>
-         Made By Omar Mohamed 
+         Made By Omar Abdella 
          
         </p>
-        
+
         <Button incrementValue={1} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={10} onClickFunction={ this.incrementCount }/>
         <Button incrementValue={100} onClickFunction={ this.incrementCount }/>
