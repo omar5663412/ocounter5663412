@@ -5,7 +5,7 @@ import './App.css';
 export default function App() {
   return (
     <div>
-      <h1>Made By Omar Mohamed</h1>
+      <h1>Made By Omar Abdella</h1>
       
     </div>
   );
