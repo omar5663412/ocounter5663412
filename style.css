@@ -11,7 +11,18 @@ p {
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right,rgb(0, 170, 255), #00FF6C, rgb(255, 255, 0), rgb(255, 0, 0), rgb(255, 255, 0), #00FF6C, #00AAFF);
+  background: linear-gradient( rgb(255, 255, 0) 0%, rgb(255, 0, 0) 50%, rgb(255, 255, 0) 100%);
+}
+body{
+  height: 100vh;
+  backg round: linear-gradient(
+    to top,
+    rgb(255, 0, 0) 0%,
+    rgb(255, 255, 0) 50%,
+    rgb(255, 255, 0) 50%,
+    rgb(0, 125, 255) 100%
+  );
+
 }
 
 button {
